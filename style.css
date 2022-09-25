@@ -1,11 +1,10 @@
 body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    height: 100vh;
-    background: #2f2f2f;
-    width: calc(100% - 33px);
-  }
+    background-repeat: no-repeat;
+    background-image: url("back2.jpg");
+    background-position:center;
+    background-size: cover;
+      }
   
   canvas {
     position: absolute;
@@ -43,10 +42,12 @@ body {
     width: 100%;
   }
   header {
-    background: #42a5f5;
+    background: #021d0d;
     color: white;
+    opacity: 0.9;
     width: 100%;
     font-size: 2rem;
     padding: 1rem;
     font-size: 2rem;
+    text-align: center;
   }
